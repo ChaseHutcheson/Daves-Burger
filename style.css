@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 body {
-  background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_foodlogo.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_foodlogo.png");
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -20,6 +20,7 @@ nav {
 nav img {
   display: block;
   width: 180px;
+  padding: 0 auto;
   margin: auto;
 }
 
@@ -28,10 +29,7 @@ nav span {
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-left: 0px;
+  margin: 10px 0;
 }
 
 nav a {
@@ -43,16 +41,14 @@ nav a {
 .content {
   width: 100%;
   height: 500px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin: auto;
+  margin: 10px auto;
   overflow: scroll;
 }
 
 /* Content Header */
 
 .header {
-  background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
   background-position: center;
   background-size: cover;
   height: 320px;
@@ -67,17 +63,14 @@ nav a {
   line-height: 40px;
   width: 68%;
   padding: 20px;
-  margin: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0 auto;
 }
 
 /* Content Body */
 
 .content .body {
   width: 90%;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0 auto;
 }
 
 .body p {
@@ -96,10 +89,9 @@ nav a {
   display: block;
   font-weight: 700;
   width: 200px;
-  height: 20px;
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid blue;
 }
 
 .button:hover {
@@ -111,7 +103,7 @@ nav a {
 /* Content Nutrition */
 
 ul.nutrition {
-    padding: 20px;
+  padding: 40px;
 }
 
 ul.nutrition li {
@@ -119,6 +111,8 @@ ul.nutrition li {
   background-color: #05A8AA;
   list-style: none;
   width: 200px;
+  padding: 10px 20px;
+  margin-bottom: 3px;
 }
 
 .nutrition .category {
@@ -126,11 +120,6 @@ ul.nutrition li {
   font-weight: 100;
   letter-spacing: 2px;
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-bottom: 3px;
 }
 
 .nutrition .value {
